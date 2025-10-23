@@ -3,7 +3,6 @@
         Xin chào, {{ Auth::user()->name }} |
         <form method="POST" action="{{ route('logout') }}" style="display:inline;">
             @csrf
-            <button type="submit" class="btn btn-danger btn-xs">Đăng xuất</button>
         </form>
     </div>
 @endif
